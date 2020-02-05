@@ -15,5 +15,3 @@ def fizzbuzz(val)
     "Fizz"
   end
 end
-
-
