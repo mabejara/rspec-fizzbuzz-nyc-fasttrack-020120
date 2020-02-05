@@ -2,9 +2,12 @@
 # See README.md for instructions on how to do this
 fizz_3 = 3
 def fizzbuzz(val)
-  if val % 3 == 0
+  if val % 3 == 0 && val % 5 == 0
+    puts "FizzBuzz"
+  else val % 5 == 0
+    puts "Buzz"
+  else vale % 3 == 0
     puts "Fizz"
-  else "Buzz"
   end
 end
 
