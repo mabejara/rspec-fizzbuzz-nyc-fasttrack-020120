@@ -3,9 +3,9 @@
 fizz_3 = 3
 def fizzbuzz(the_number)
 
-  if the_number % 3 == 1
-    puts "Fizz"
-  else "Buzz"
+  if the_number % 3 == 0
+    puts "Buzz"
+  else "Fizz"
   end
 end
 
