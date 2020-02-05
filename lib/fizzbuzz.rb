@@ -7,7 +7,7 @@ Fizz_15 = 15
 def fizzbuzz(val)
   if val % 3 == 0 && val % 5 == 0
     puts "FizzBuzz"
-  else val % 5 == 0
+  elsif val % 5 == 0
     puts "Buzz"
   else val % 3 == 0
     puts "Fizz"
