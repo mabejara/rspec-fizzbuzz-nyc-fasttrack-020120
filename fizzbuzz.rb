@@ -11,7 +11,9 @@ def fizzbuzz(val)
 #    nil
   elsif val % 5 == 0
     "Buzz"
-  else val % 3 == 0
+  elsif val % 3 == 0
     "Fizz"
+  else val = nil
+    nil
   end
 end
