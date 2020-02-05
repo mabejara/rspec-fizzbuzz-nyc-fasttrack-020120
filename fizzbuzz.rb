@@ -6,11 +6,11 @@ Fizz_15 = 15
 
 def fizzbuzz(val)
   if val % 3 == 0 && val % 5 == 0
-    puts "FizzBuzz"
+    "FizzBuzz"
   elsif val % 5 == 0
-    puts "Buzz"
+    "Buzz"
   else val % 3 == 0
-    puts "Fizz"
+    "Fizz"
   end
 end
 
