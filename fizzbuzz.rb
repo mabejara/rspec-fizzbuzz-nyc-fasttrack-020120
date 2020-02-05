@@ -5,6 +5,5 @@ def fizzbuzz(the_number)
   if "the the_number is divisble by 3" && "the the_number is divisible by 5"
     puts "Fizz"
   else "NOOOOO"
-  end
 end
 fizzbuzz(fizz_3)
