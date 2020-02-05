@@ -3,7 +3,7 @@
 fizz_3 = 3
 def fizzbuzz(the_number)
 
-  if the_number % 3 == 0 && the_number %5 == 0
+  if the_number % 3 == 1 && the_number %5 == 1
     puts "Fizz"
   else "NOOOOO"
   end
